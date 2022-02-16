@@ -23,5 +23,6 @@ public class FlipCoin {
 		else{
 		  		System.out.println("Percentage of heads: " + heads + "%");
 		}
+      fc.close();
 	}
 }
